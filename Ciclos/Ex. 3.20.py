@@ -1,3 +1,7 @@
+#    Uma frutaria vende quatro tipos de frutas: Bananas, Kiwis, Laranjas e Pêssegos (respetivamente 0.99€, 2.22€, 1.25€ e 1.75€ por kg) e pretende um programa que:
+#        • Para cada cliente leia o nome, o número de frutas que comprou, a quantidade de cada uma e calcule o preço a pagar;
+#        • No fim do dia (que termina com o cliente "fim"), escreva o nome do cliente que mais pagou (assim como o valor pago), quantos clientes foram proces-sados e qual foi a média em kg.
+
 maiorcliente = 0
 nomemaiorcliente = ""
 contaclientes = 0
