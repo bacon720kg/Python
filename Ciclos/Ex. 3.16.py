@@ -1,3 +1,15 @@
+# A avaliação de uma unidade curricular tem como base cinco minitestes ao longo do semestre. Dado o número, nome, número de minitestes feitos e nota de cada miniteste de um número indeterminado de alunos (a terminar com um número 0), pretende-se calcular e escrever:
+#    • A nota final de cada um dos alunos, de acordo com a fórmula:
+#        Nota final = 50% melhor miniteste + 50% média dos restantes minitestes
+#    • O resultado de cada aluno, de acordo com a seguinte tabela:
+#        Nota Final    Resultado
+#        [0, 8[        Reprovado
+#        [8, 12[       Oral
+#        [12, 20]      Aprovado
+#    • O nome e nota final do aluno com a melhor nota final;
+#    • A média das notas finais dos alunos processados;
+#    • A percentagem de alunos por resultado (Reprovado, Oral e Aprovado).
+
 melhornotafinal = 0
 somanotasfinais = 0
 contaalunos = 0
