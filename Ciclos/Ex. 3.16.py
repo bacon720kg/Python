@@ -1,4 +1,4 @@
-# A avaliação de uma unidade curricular tem como base cinco minitestes ao longo do semestre. Dado o número, nome, número de minitestes feitos e nota de cada miniteste de um número indeterminado de alunos (a terminar com um número 0), pretende-se calcular e escrever:
+# A avaliação de uma unidade curricular tem como base cinco minitestes ao longo do semestre. Dado o número, nome, número de minitestes feitos e nota de cada miniteste de um número indeterminado de alunos (a terminar com o número 0), pretende-se calcular e escrever:
 #    • A nota final de cada um dos alunos, de acordo com a fórmula:
 #        Nota final = 50% melhor miniteste + 50% média dos restantes minitestes
 #    • O resultado de cada aluno, de acordo com a seguinte tabela:
