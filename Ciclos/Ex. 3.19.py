@@ -1,3 +1,11 @@
+#    A nota de uma unidade curricular é obtida a partir de um conjunto de parcelas. Uma dessas parcelas é a nota de aulas, apenas para alunos que foram a pelo menos 75% das aulas, e que é constituída pelos três melhores testes de um máximo de cinco. E segundo a tabela seguinte:
+#        Média        Nota
+#        [0, 5[       0
+#        [5, 10[      1
+#        [10, 15[     2
+#        [15, 20]     3
+#    Pretende-se um algoritmo que, para uma turma com um número conhecido de alunos, calcula e escreva para cada: se tiver nota de aulas, o seu valor e a média dos testes, caso contrário a mensagem "não tem assiduidade, logo a sua nota é 0.", assim como o nome e a nota do aluno que teve melhor nota e a média das médias da turma, apenas para os que tem assiduidade.
+
 melhornota = 0
 contacomassid = 0
 contasemassid = 0
