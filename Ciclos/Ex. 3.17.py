@@ -1,3 +1,9 @@
+#    Um grupo de cinco amigos vai organizar uma festa. Cada um deles leva vários artigos que podem ser: comida (C), bebidas (B) ou extras (E). Dado o nome do amigo e, para cada um deles, os artigos, o tipo desses artigos e o respetivo preço aproximado (a terminar com a letra F), apresente:
+#        • Para cada amigo, a quantidade de artigos levados e, por tipo de artigo, a quantidade e o valor, assim como o valor total;
+#        • O nome e a quantidade de artigos levados por quem levou mais artigos;
+#        • O nome e o valor de artigos levado por quem levou mais em valor;
+#        • As quantidades e valores totais de cada tipo de artigo.
+
 topnumartigos = 0
 topvalor = 0
 numtotalcomida = 0
