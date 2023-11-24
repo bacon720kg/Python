@@ -1,13 +1,13 @@
-#    O Índice de massa corporal é um instrumento para determinar se uma pessoa está no peso ideal e é calculada pela divisão do peso, em quilogramas, do indivíduo pelo quadrado de sua altura, em metros, ou seja, IMC = Peso / (Altura * Altura).
-#    Pelo IMC consegue-se saber qual a condição de uma pessoa:
-#        IMC                    Condição
-#        < 19.1                 Abaixo do peso
-#        [19.1, 25.8[           No peso normal
-#        [25.8, 27.3[           Marginalmente acima do peso
-#        [27.3, 32.3[           Acima do peso ideal
-#        >= 32.3                Obeso
-#    Escreva um programa que, dado o nome, o peso em quilogramas e a altura em metros, de um número indeterminado de pessoas (terminar com o nome fim), calcule e escreva o IMC de cada pessoa, assim como a sua condição.
-#    No fim, escreva o nome e IMC da pessoa com menor IMC, assim como a média de IMC's e as percentagens de cada uma das condições.
+# O Índice de massa corporal é um instrumento para determinar se uma pessoa está no peso ideal e é calculada pela divisão do peso, em quilogramas, do indivíduo pelo quadrado de sua altura, em metros, ou seja, IMC = Peso / (Altura * Altura).
+# Pelo IMC consegue-se saber qual a condição de uma pessoa:
+#     IMC                    Condição
+#     < 19.1                 Abaixo do peso
+#     [19.1, 25.8[           No peso normal
+#     [25.8, 27.3[           Marginalmente acima do peso
+#     [27.3, 32.3[           Acima do peso ideal
+#     >= 32.3                Obeso
+# Escreva um programa que, dado o nome, o peso em quilogramas e a altura em metros, de um número indeterminado de pessoas (terminar com o nome fim), calcule e escreva o IMC de cada pessoa, assim como a sua condição.
+# No fim, escreva o nome e IMC da pessoa com menor IMC, assim como a média de IMC's e as percentagens de cada uma das condições.
 
 minimoimc = 10000
 somaimc = 0
