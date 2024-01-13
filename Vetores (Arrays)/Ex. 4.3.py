@@ -7,25 +7,25 @@
 Num = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 Nota = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
-Alunos = 0
+alunos = 0
 
 for i in range(3):
     print("")
     print("*** Teste", i + 1, "***")
 
     print("Qual o número do primeiro aluno? (0 para terminar)")
-    Num[Alunos] = int(input())
-    while Num[Alunos] < 0:
+    Num[alunos] = int(input())
+    while Num[alunos] < 0:
         print("Qual o número do primeiro aluno? (0 para terminar)")
-        Num[Alunos] = int(input())
+        Num[alunos] = int(input())
 
-    while Num[Alunos] != 0:
+    while Num[alunos] != 0:
         k = 0
-        while Num[Alunos] != Num[k]:
+        while Num[alunos] != Num[k]:
             k = k + 1
 
-        if Alunos == k:
-            Alunos = Alunos + 1
+        if alunos == k:
+            alunos = alunos + 1
             Nota[k][0] = 0
             Nota[k][1] = 0
             Nota[k][2] = 0
@@ -37,14 +37,14 @@ for i in range(3):
             Nota[k][i] = int(input())
 
         print("Qual o número do próximo aluno? (0 para terminar)")
-        Num[Alunos] = int(input())
-        while Num[Alunos] < 0:
+        Num[alunos] = int(input())
+        while Num[alunos] < 0:
             print("Qual o número do próximo aluno? (0 para terminar)")
-            Num[Alunos] = int(input())
+            Num[alunos] = int(input())
 
 print("")
 print("*** Notas de Alunos ***")
-for i in range(Alunos):
+for i in range(alunos):
     max1 = 0
     max2 = 0
     for t in range(3):
@@ -59,12 +59,12 @@ for i in range(Alunos):
 print("")
 print("*** Média de testes ***")
 for i in range(3):
-    Soma = 0
-    Conta = 0
-    for j in range(Alunos):
+    soma = 0
+    conta = 0
+    for j in range(alunos):
         if Nota[j][i] > 0:
-            Soma = Soma + Nota[j][i]
-            Conta = Conta + 1
+            soma = soma + Nota[j][i]
+            conta = conta + 1
 
-    Media = Soma / Conta
-    print("Média do teste", i + 1, ":", Media)
+    media = soma / conta
+    print("Média do teste", i + 1, ":", media)
