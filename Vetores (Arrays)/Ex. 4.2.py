@@ -15,7 +15,7 @@ while a <= 0:
     print("Qual o limite superior?")
     a = int(input())
 
-Soma = 0
+soma = 0
 for x in range(-a, a + 1):
     if x < 0:
         F[x] = abs(x)
@@ -27,11 +27,11 @@ for x in range(-a, a + 1):
             F[x] = F[x] * i
     print("F(", x, ") =", F[x])
 
-    Soma = Soma + F[x]
+    soma = soma + F[x]
 
-Media = Soma / (2 * a + 1)
-print("A média de F(x) é", Media)
+media = soma / (2 * a + 1)
+print("A média de F(x) é", media)
 
 for x in range(a, -a, -1):
-    if F[x] > Media:
-        print("F(", x, ") =", F[x], ">", Media)
+    if F[x] > media:
+        print("F(", x, ") =", F[x], ">", media)
