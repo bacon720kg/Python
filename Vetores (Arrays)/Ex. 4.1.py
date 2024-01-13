@@ -113,11 +113,11 @@ D[0] = C[0]
 for i in range(1, TamC):
     D[TamD + 1] = C[i]
 
-    k = 1
-    while C[i] != D[k] and k < TamD + 1:
-        k = k + 1
+    K = 1
+    while C[i] != D[K] and K < TamD + 1:
+        K = K + 1
 
-    if k == TamD + 1:
+    if K == TamD + 1:
         TamD = TamD + 1
 
 print("D =", D)
