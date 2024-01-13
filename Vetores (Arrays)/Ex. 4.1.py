@@ -70,7 +70,7 @@ print("Qual o número a procurar?")
 procura = int(input())
 while procura < 0:
     print("Qual o número a procurar?")
-    Proc = int(input())
+    procura = int(input())
 
 i = 0
 while procura != C[i] and i < tamc:
