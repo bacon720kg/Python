@@ -1,7 +1,8 @@
+# Considera a seguinte função:
 #        { |x| para x < 0
 # F(x) = { 0 para x = 0
 #        { x! para x > 0
-# Considerando a função anterior, elabore um algoritmo para:
+# Elabore um algoritmo para:
 #   • Calcular e escrever F(x), sendo x inteiro e pertencente ao intervalo [-a, a], em que a é inteiro e positivo;
 #   • Calcular e escrever a média dos valores de F(x) em [-a, a];
 #   • Escrever, de forma decrescente, os valores de F(x) maiores que a média.
