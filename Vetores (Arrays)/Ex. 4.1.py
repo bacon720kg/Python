@@ -29,16 +29,16 @@ while B[0] < -1:
     print("Qual o primeiro elemento? (-1 para terminar)")
     B[0] = int(input())
 
-TamB = 0
-while B[TamB] != -1 and TamB < 9:
+tamb = 0
+while B[tamb] != -1 and tamb < 9:
 
-    TamB = TamB + 1
+    tamb = tamb + 1
 
     print("Qual o próximo elemento? (-1 para terminar)")
-    B[TamB] = int(input())
-    while B[TamB] < -1:
+    B[tamb] = int(input())
+    while B[tamb] < -1:
         print("Qual o próximo elemento? (-1 para terminar)")
-        B[TamB] = int(input())
+        B[tamb] = int(input())
 
 print("B =", B)
 
@@ -53,10 +53,10 @@ C = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 for i in range(5):
     C[i] = A[i]
 
-for i in range(TamB):
+for i in range(tamb):
     C[i + 5] = B[i]
 
-TamC = 5 + TamB
+tamc = 5 + tamb
 
 print("C =", C)
 
@@ -67,19 +67,19 @@ print("")
 print("Escreva se existe um determinado número no vetor C e, caso exista, em que posição ocorre.")
 print("Qual o número a procurar?")
 
-Procura = int(input())
-while Procura < 0:
+procura = int(input())
+while procura < 0:
     print("Qual o número a procurar?")
     Proc = int(input())
 
 i = 0
-while Procura != C[i] and i < TamC:
+while procura != C[i] and i < tamc:
     i = i + 1
 
-if Procura == C[i]:
+if procura == C[i]:
     print("Número a procurar existe na posição", i + 1)
 else:
-    print("O número", Procura, "não existe em C")
+    print("O número", procura, "não existe em C")
 
 
 # Escreva os números ímpares do vetor C.
@@ -87,7 +87,7 @@ else:
 print("")
 print("Escreva os números ímpares do vetor C.")
 
-for i in range(TamC):
+for i in range(tamc):
     if C[i] % 2 != 0:
         print("C[", i + 1, "] = ", C[i])
 
@@ -97,7 +97,7 @@ for i in range(TamC):
 print("")
 print("Escreva os números do vetor C pela ordem inversa à que foram inseridos.")
 
-for i in range(TamC - 1, -1, -1):
+for i in range(tamc - 1, -1, -1):
     print("C[", i + 1, "] =", C[i])
 
 
@@ -108,16 +108,16 @@ print("Coloque no vetor D os elementos não repetidos do vetor C.")
 
 D = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-TamD = 0
+tamd = 0
 D[0] = C[0]
-for i in range(1, TamC):
-    D[TamD + 1] = C[i]
+for i in range(1, tamc):
+    D[tamd + 1] = C[i]
 
     K = 1
-    while C[i] != D[K] and K < TamD + 1:
+    while C[i] != D[K] and K < tamd + 1:
         K = K + 1
 
-    if K == TamD + 1:
-        TamD = TamD + 1
+    if K == tamd + 1:
+        tamd = tamd + 1
 
 print("D =", D)
