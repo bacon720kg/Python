@@ -1,4 +1,4 @@
-# Considera a seguinte função:
+# Considere a seguinte função:
 #        { |x| para x < 0
 # F(x) = { 0 para x = 0
 #        { x! para x > 0
