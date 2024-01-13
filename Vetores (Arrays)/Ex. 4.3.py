@@ -1,8 +1,8 @@
 # Uma unidade curricular tem como forma de avaliação os dois melhores de três testes.
 # A leitura das notas de cada aluno é feita com o número do aluno e a nota que teve, terminando com a nota 0.
 # Pretende-se um algoritmo que calcula e escreva:
-#   • A nota de cada aluno;
-#   • A média de cada um dos três testes.
+#     • A nota de cada aluno;
+#     • A média de cada um dos três testes.
 
 Num = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 Nota = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
