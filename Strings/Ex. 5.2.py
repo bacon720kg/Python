@@ -18,4 +18,7 @@ while esp != -1:
 
     esp = texto.find(" ")
 
-print("O texto tem", contador, "palavras.")
+if contador > 1:
+    print("O texto tem", contador, "palavras.")
+else:
+    print("O texto tem", contador, "palavra.")
