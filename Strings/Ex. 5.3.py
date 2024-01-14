@@ -24,7 +24,9 @@ while onde != -1:
 
     onde = texto.find(proc + " ")
 
-if contador > 0:
-    print("A palavra", proc, "aparece", contador, "vez(es) no texto.")
-else:
+if contador == 0:
     print("A palavra não aparece no texto.")
+elif contador == 1:
+    print("A palavra", proc, "aparece", contador, "vez no texto.")
+else:
+    print("A palavra", proc, "aparece", contador, "vezes no texto.")
