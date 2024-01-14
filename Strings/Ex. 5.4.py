@@ -18,7 +18,9 @@ for i in range(len(texto)):
     if onde != -1:
         conta = conta + 1
 
-if conta > 0:
-    print("O texto tem", conta, "vogais.")
-else:
+if conta == 0:
     print("O texto não tem vogais.")
+elif conta == 1:
+    print("O texto tem", conta, "vogal.")
+else:
+    print("O texto tem", conta, "vogais.")
