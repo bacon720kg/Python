@@ -1,4 +1,4 @@
-# Escreva todas as letras de uma frase.
+# Escreva todas as letras de um texto.
 
 alfa = "abcdefghijklmnopqrstuvwxyz"
 
