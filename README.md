@@ -6,7 +6,7 @@
 
 These are my very first steps in the world of programming.
 
-Each file contains an exercise focused on learning while loops, for loops, conditional structures, arrays, string manipulation or string frequency.
+Each file contains an exercise focused on learning while loops, for loops, conditional structures, arrays, strings manipulation or frequency.
 
 ***
 
